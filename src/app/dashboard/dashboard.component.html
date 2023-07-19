@@ -1,0 +1,122 @@
+<h3 _ngcontent-wre-c129="" class="font-bold text-2xl">Dashboard</h3>
+<br/>
+<div _ngcontent-wre-c162="" class="grid grid-rows-2 gap-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2">
+   <div _ngcontent-wre-c162="" class="summary-container rounded-2xl shadow-lg grid place-content-center h-[150px] text-center bg-green-300 p-4 hover:scale-105 transition-all">
+      <h1 _ngcontent-wre-c162="">HOST COMMUNITY</h1>
+      <p _ngcontent-wre-c162="" class="font-bold hover:bg-white hover:p-2 rounded-md transition-all cursor-pointer">A - 0 | P - 0</p>
+   </div>
+   <div _ngcontent-wre-c162="" class="summary-container rounded-2xl shadow-lg grid place-content-center h-[150px] text-center bg-blue-300 p-4 hover:scale-105 transition-all">
+      <h1 _ngcontent-wre-c162="">FUND MANAGERS</h1>
+      <p _ngcontent-wre-c162="" class="font-bold hover:bg-white hover:p-2 rounded-md transition-all cursor-pointer">A - 18 | P - 0</p>
+   </div>
+   <div _ngcontent-wre-c162="" class="summary-container rounded-2xl shadow-lg grid place-content-center h-[150px] text-center bg-yellow-300 p-4 hover:scale-105 transition-all">
+      <h1 _ngcontent-wre-c162="">ASSETS</h1>
+      <p _ngcontent-wre-c162="" class="font-bold hover:bg-white hover:p-2 rounded-md transition-all cursor-pointer">A - 2 | P - 4</p>
+   </div>
+   <div _ngcontent-wre-c162="" class="summary-container rounded-2xl shadow-lg grid place-content-center h-[150px] text-center bg-red-300 p-4 hover:scale-105 transition-all">
+      <h1 _ngcontent-wre-c162="">TRUSTEES</h1>
+      <p _ngcontent-wre-c162="" class="font-bold hover:bg-white hover:p-2 rounded-md transition-all cursor-pointer">A - 0 </p>
+   </div>
+   <div _ngcontent-wre-c162="" class="summary-container rounded-2xl shadow-lg grid place-content-center h-[150px] text-center bg-red-300 p-4 hover:scale-105 transition-all">
+      <h1 _ngcontent-wre-c162="">DEVELOPMENT PLAN</h1>
+      <p _ngcontent-wre-c162="" class="font-bold hover:bg-white hover:p-2 rounded-md transition-all cursor-pointer">A - 0 | P - 0</p>
+   </div>
+   <div _ngcontent-wre-c162="" class="summary-container rounded-2xl shadow-lg grid place-content-center h-[150px] text-center bg-yellow-300 p-4 hover:scale-105 transition-all">
+      <h1 _ngcontent-wre-c162="">VENDORS</h1>
+      <p _ngcontent-wre-c162="" class="summary-container font-bold hover:bg-white hover:p-2 rounded-md transition-all cursor-pointer">A - 1 | P - 2</p>
+   </div>
+   <div _ngcontent-wre-c162="" class="d-none summary-container rounded-2xl shadow-lg grid place-content-center h-[150px] text-center bg-blue-300 p-4 hover:scale-105 transition-all">
+      <h1 _ngcontent-wre-c162="">SETTLORS</h1>
+      <p _ngcontent-wre-c162="" class="font-bold hover:bg-white hover:p-2 rounded-md transition-all cursor-pointer">A - 0 | P - 12</p>
+   </div>
+   <div _ngcontent-wre-c162="" class="summary-container rounded-2xl shadow-lg grid place-content-center h-[150px] text-center bg-green-300 p-4 hover:scale-105 transition-all">
+      <h1 _ngcontent-wre-c162="">FINES &amp; PENALTIES</h1>
+      <p _ngcontent-wre-c162="" class="font-bold hover:bg-white hover:p-2 rounded-md transition-all cursor-pointer">A - 0 | P - 0</p>
+   </div>
+</div>
+
+
+
+<br/>
+<br/>
+<br/>
+
+<table _ngcontent-wre-c101="" mat-table="" matsort="" class="table mat-table cdk-table" role="table">
+    <thead role="rowgroup">
+       <tr _ngcontent-wre-c101="" role="row" mat-header-row="" class="mat-header-row cdk-header-row ng-star-inserted">
+          <th _ngcontent-wre-c101="" role="columnheader" mat-header-cell="" mat-sort-header="" class="mat-header-cell cdk-header-cell cdk-column-settlorName mat-column-settlorName ng-star-inserted"> Settlor </th>
+          <th _ngcontent-wre-c101="" role="columnheader" mat-header-cell="" mat-sort-header="" class="mat-header-cell cdk-header-cell cdk-column-assetName mat-column-assetName ng-star-inserted"> Asset </th>
+          <th _ngcontent-wre-c101="" role="columnheader" mat-header-cell="" mat-sort-header="" class="mat-header-cell cdk-header-cell cdk-column-opexYear mat-column-opexYear ng-star-inserted"> Opex Year </th>
+          <th _ngcontent-wre-c101="" role="columnheader" mat-header-cell="" mat-sort-header="" class="mat-header-cell cdk-header-cell cdk-column-opexDays mat-column-opexDays ng-star-inserted"> Opex Days </th>
+          <th _ngcontent-wre-c101="" role="columnheader" mat-header-cell="" mat-sort-header="" class="mat-header-cell cdk-header-cell cdk-column-currency mat-column-currency ng-star-inserted"> Currency </th>
+          <th _ngcontent-wre-c101="" role="columnheader" mat-header-cell="" mat-sort-header="" class="mat-header-cell cdk-header-cell cdk-column-opexValue mat-column-opexValue ng-star-inserted"> Opex Value </th>
+          <th _ngcontent-wre-c101="" role="columnheader" mat-header-cell="" mat-sort-header="" class="mat-header-cell cdk-header-cell cdk-column-royaltyRate mat-column-royaltyRate ng-star-inserted"> Opex Rate (%) </th>
+          <th _ngcontent-wre-c101="" role="columnheader" mat-header-cell="" mat-sort-header="" class="mat-header-cell cdk-header-cell cdk-column-isApproved mat-column-isApproved ng-star-inserted"> Status </th>
+          <!---->
+       </tr>
+       <!---->
+    </thead>
+    <tbody role="rowgroup">
+       <tr _ngcontent-wre-c101="" role="row" mat-row="" class="mat-row cdk-row ng-star-inserted">
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-settlorName mat-column-settlorName ng-star-inserted">
+             <!----><span _ngcontent-wre-c101="" class="ng-star-inserted"> Chevron(CNL) </span><!---->
+          </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-assetName mat-column-assetName ng-star-inserted">
+             <!----><span _ngcontent-wre-c101="" class="ng-star-inserted"> Demo Asset plus </span><!---->
+          </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-opexYear mat-column-opexYear ng-star-inserted"> 2022 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-opexDays mat-column-opexDays ng-star-inserted"> 365 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-currency mat-column-currency ng-star-inserted">
+             <!----><span _ngcontent-wre-c101="" class="ng-star-inserted"> NGN </span><!---->
+          </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-opexValue mat-column-opexValue ng-star-inserted"> 300,000,000 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-royaltyRate mat-column-royaltyRate ng-star-inserted"> 3.00 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-isApproved mat-column-isApproved ng-star-inserted">
+             <!----><!----><span _ngcontent-wre-c101="" class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-inset ring-1 bg-green-50 text-green-700 ring-green-600/10 ng-star-inserted"> Approved </span><!---->
+          </td>
+          <!---->
+       </tr>
+       <tr _ngcontent-wre-c101="" role="row" mat-row="" class="mat-row cdk-row ng-star-inserted">
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-settlorName mat-column-settlorName ng-star-inserted">
+             <!----><span _ngcontent-wre-c101="" class="ng-star-inserted"> Chevron(CNL) </span><!---->
+          </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-assetName mat-column-assetName ng-star-inserted">
+             <!----><span _ngcontent-wre-c101="" class="ng-star-inserted"> Demo Asset plus </span><!---->
+          </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-opexYear mat-column-opexYear ng-star-inserted"> 2022 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-opexDays mat-column-opexDays ng-star-inserted"> 365 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-currency mat-column-currency ng-star-inserted">
+             <!----><span _ngcontent-wre-c101="" class="ng-star-inserted"> USD </span><!---->
+          </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-opexValue mat-column-opexValue ng-star-inserted"> 250,000,000 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-royaltyRate mat-column-royaltyRate ng-star-inserted"> 3.00 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-isApproved mat-column-isApproved ng-star-inserted">
+             <span _ngcontent-wre-c101="" class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-inset ring-1 bg-orange-50 text-ash-700 ring-red-600/10 ng-star-inserted"> Pending </span><!----><!----><!---->
+          </td>
+          <!---->
+       </tr>
+       <tr _ngcontent-wre-c101="" role="row" mat-row="" class="mat-row cdk-row ng-star-inserted">
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-settlorName mat-column-settlorName ng-star-inserted">
+             <!----><span _ngcontent-wre-c101="" class="ng-star-inserted"> Chevron(CNL) </span><!---->
+          </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-assetName mat-column-assetName ng-star-inserted">
+             <!----><span _ngcontent-wre-c101="" class="ng-star-inserted"> Nembe Gas Facility </span><!---->
+          </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-opexYear mat-column-opexYear ng-star-inserted"> 2022 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-opexDays mat-column-opexDays ng-star-inserted"> 300 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-currency mat-column-currency ng-star-inserted">
+             <!----><span _ngcontent-wre-c101="" class="ng-star-inserted"> USD </span><!---->
+          </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-opexValue mat-column-opexValue ng-star-inserted"> 1,000,000 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-royaltyRate mat-column-royaltyRate ng-star-inserted"> 3.00 </td>
+          <td _ngcontent-wre-c101="" role="cell" mat-cell="" class="mat-cell cdk-cell cdk-column-isApproved mat-column-isApproved ng-star-inserted">
+             <!----><!----><span _ngcontent-wre-c101="" class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-inset ring-1 bg-green-50 text-green-700 ring-green-600/10 ng-star-inserted"> Approved </span><!---->
+          </td>
+          <!---->
+       </tr>
+       <!----><!---->
+    </tbody>
+    <tfoot role="rowgroup" style="display: none; bottom: 0px; z-index: 10;" class="mat-table-sticky">
+       <!---->
+    </tfoot>
+ </table>
