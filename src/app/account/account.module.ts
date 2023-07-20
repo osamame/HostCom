@@ -22,6 +22,10 @@ import { HcdpComponent } from '../hcdp/hcdp.component';
 import { FundaccountdetailsComponent } from '../fundaccountdetails/fundaccountdetails.component';
 import { StaffrecordComponent } from '../staffrecord/staffrecord.component';
 import { TrusteeComponent } from '../trustee/trustee.component';
+import { ApprovaltodeclinehiringafundmanagerComponent } from '../approvaltodeclinehiringafundmanager/approvaltodeclinehiringafundmanager.component';
+import { ApprovaltodiscontinuecontributiontoreservefundComponent } from '../approvaltodiscontinuecontributiontoreservefund/approvaltodiscontinuecontributiontoreservefund.component';
+import { ApprovaltodisengagefundmanagerComponent } from '../approvaltodisengagefundmanager/approvaltodisengagefundmanager.component';
+import { ProjectcompletioncertifcateComponent } from '../projectcompletioncertifcate/projectcompletioncertifcate.component';
 
 const routes: Routes = [ 
   {
@@ -57,6 +61,12 @@ const routes: Routes = [
     {path : "fundaccountdetails", component: FundaccountdetailsComponent},
     {path : "staffrecord", component: StaffrecordComponent},
     {path : "trustee", component: TrusteeComponent},
+
+
+    {path : "declinehiringafundmanager", component: ApprovaltodeclinehiringafundmanagerComponent},
+    {path : "discontinuecontributiontoreservefund", component: ApprovaltodiscontinuecontributiontoreservefundComponent},
+    {path : "disengagefundmanager", component: ApprovaltodisengagefundmanagerComponent},
+    {path : "projectcompletioncertifcate", component: ProjectcompletioncertifcateComponent},
 
   ]
     }

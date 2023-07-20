@@ -22,6 +22,10 @@ import { HcdpComponent } from './hcdp/hcdp.component';
 import { FundaccountdetailsComponent } from './fundaccountdetails/fundaccountdetails.component';
 import { StaffrecordComponent } from './staffrecord/staffrecord.component';
 import { TrusteeComponent } from './trustee/trustee.component';
+import { ApprovaltodeclinehiringafundmanagerComponent } from './approvaltodeclinehiringafundmanager/approvaltodeclinehiringafundmanager.component';
+import { ApprovaltodiscontinuecontributiontoreservefundComponent } from './approvaltodiscontinuecontributiontoreservefund/approvaltodiscontinuecontributiontoreservefund.component';
+import { ApprovaltodisengagefundmanagerComponent } from './approvaltodisengagefundmanager/approvaltodisengagefundmanager.component';
+import { ProjectcompletioncertifcateComponent } from './projectcompletioncertifcate/projectcompletioncertifcate.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +48,11 @@ import { TrusteeComponent } from './trustee/trustee.component';
     HcdpComponent,
     FundaccountdetailsComponent,
     StaffrecordComponent,
-    TrusteeComponent
+    TrusteeComponent,
+    ApprovaltodeclinehiringafundmanagerComponent,
+    ApprovaltodiscontinuecontributiontoreservefundComponent,
+    ApprovaltodisengagefundmanagerComponent,
+    ProjectcompletioncertifcateComponent
   ],
   imports: [
     BrowserModule,
